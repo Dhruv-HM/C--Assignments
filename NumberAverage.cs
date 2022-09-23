@@ -7,7 +7,6 @@ namespace NumberAverage
         static void Main(string[] args)
         {
             int arr_len;
-            int flag = 0;
             // get size of array
             Console.WriteLine("Enter the size of the Array");
             arr_len = int.Parse(Console.ReadLine());
@@ -24,45 +23,52 @@ namespace NumberAverage
 
             for (int i = 0; i < str.Length; i++)
             {
-                
                 ints[i]=int.Parse(str[i]);
-                if(ints[i]<0)
-                {
-                    //Console.WriteLine("Error");
-                    flag = 1;
-                }
             }
 
 
             //call FindAverage() method to calculate average and receive string response
 
-            
+            string avgg=FindAverage(ints);
 
-            if (flag == 1)
-            {
-                Console.WriteLine("Error");
-            }
-
-            else
-            {
-                string avgg = FindAverage(ints);
-
-                //print the result
-                Console.WriteLine($"The average value is: {avgg}");
-            }
+            //print the result
+            Console.WriteLine($"The average value is: {avgg}");
         }
 
         //write here logic to calculate the average an array
         public static String FindAverage(int[] arr)
         {
+            int neg_flag = 0;
             int avg = 0;
             foreach(int i in arr)
             {
                 avg += i;
+                if (i < 0)
+                {
+                    neg_flag = 1;   
+                }
             }
-            avg=avg/(arr.Length);
+
+            if (arr.Length == 0)
+            {
+                return "Array is Empty";
+            }
+
+            avg =avg/(arr.Length);
+
             
-            return avg.ToString();
+
+            if (neg_flag == 0)
+            {
+                return $"The Average is: {avg}";
+            }
+
+            else 
+            {
+                return "Negative values in array";
+            }
+
+
 
         }
     }
