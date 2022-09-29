@@ -1,0 +1,8 @@
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\bin\Debug\custom exception.exe.config
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\bin\Debug\custom exception.exe
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\bin\Debug\custom exception.pdb
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\obj\Debug\custom exception.csproj.AssemblyReference.cache
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\obj\Debug\custom exception.csproj.SuggestedBindingRedirects.cache
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\obj\Debug\custom exception.csproj.CoreCompileInputs.cache
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\obj\Debug\custom exception.exe
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception\obj\Debug\custom exception.pdb
