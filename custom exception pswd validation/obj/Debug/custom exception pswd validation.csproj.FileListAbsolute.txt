@@ -1,0 +1,8 @@
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\bin\Debug\custom exception pswd validation.exe.config
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\bin\Debug\custom exception pswd validation.exe
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\bin\Debug\custom exception pswd validation.pdb
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\obj\Debug\custom exception pswd validation.csproj.AssemblyReference.cache
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\obj\Debug\custom exception pswd validation.csproj.SuggestedBindingRedirects.cache
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\obj\Debug\custom exception pswd validation.csproj.CoreCompileInputs.cache
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\obj\Debug\custom exception pswd validation.exe
+C:\Users\muhamed.faseel\source\repos\CSprjs\custom exception pswd validation\obj\Debug\custom exception pswd validation.pdb
