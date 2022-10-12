@@ -1,0 +1,13 @@
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.AssemblyReference.cache
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\dhruv.kanthaliya\Documents\C#-Training\assignments\exercise-product-management-module\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
