@@ -1,0 +1,15 @@
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\bin\Debug\net6.0\delegateAss1_part2.exe
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\bin\Debug\net6.0\delegateAss1_part2.deps.json
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\bin\Debug\net6.0\delegateAss1_part2.runtimeconfig.json
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\bin\Debug\net6.0\delegateAss1_part2.dll
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\bin\Debug\net6.0\delegateAss1_part2.pdb
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.csproj.AssemblyReference.cache
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.AssemblyInfoInputs.cache
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.AssemblyInfo.cs
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.csproj.CoreCompileInputs.cache
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.dll
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\refint\delegateAss1_part2.dll
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.pdb
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\delegateAss1_part2.genruntimeconfig.cache
+C:\Users\muhamed.faseel\source\repos\advanced\delegateAss1_part2\obj\Debug\net6.0\ref\delegateAss1_part2.dll

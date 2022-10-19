@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "delegate_ass1/1.0.0": {
+        "runtime": {
+          "delegate_ass1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "delegate_ass1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
