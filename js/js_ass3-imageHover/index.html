@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img{
+            width:200px;
+            height: 200px;
+            margin: 30px;
+        }
+    </style>
+    <script>
+        function openImage(ele)
+        {
+           // var ele=document.getElementById("img").id;
+            //alert(ele.src);
+            window.open(ele.src, "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=450,height=450");
+        }
+    </script>
+</head>
+<body>
+    <img src="banner.jpg" alt="" class="img" id="1" onmouseover="openImage(this)" >
+    <img src="bluetooth_speakers.jpg" alt="" class="img" id="2" onmouseover="openImage(this)">
+    <img src="laptop.jpg" alt="" class="img" id="3" onmouseover="openImage(this)">
+    <img src="camera.png" alt="" class="img" id="4" onmouseover="openImage(this)">
+</body>
+</html>

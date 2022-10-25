@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <!-- add a calling function in onsubmit -->
+        <form onsubmit="return fieldsValidate()">
+  <table>
+    <th colspan="2"><h1>Form Validation</h1></th>
+        <div class="form-group">
+
+            <tr>
+              <td>  <label for="formGroupExampleInput">Name</label></td>
+              <td><input type="text" name="ormGroupExampleInput" class="form-control" id="name" placeholder="Enter Full Name" onchange="NameValidate()"></td>
+              <td><p id="nameError"></p></td>
+            </tr>
+          </div>
+         <tr>
+           <div class="form-group">
+             <td><label for="exampleInputEmail1">Email address</label></td>
+             <td><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></td>
+             <!-- <td><small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small></td> -->
+           </div>
+         </tr>
+         <tr>
+           <div class="form-group">
+             <td><label for="exampleInputPassword1">Password</label></td>
+             <td>  <input type="password" class="form-control" id="pass" placeholder="Password"></td>
+           </div>
+         </tr>
+         <tr>
+           <div class="form-group">
+             <td>  <label for="exampleInputPassword1">Re-enter Password</label></td>
+             <td><input type="password" class="form-control" id="repas" placeholder="Password" onchange="PasswordValidate()"></td>
+             <td><p id="repass"></p></td>
+           </div>
+         </tr>
+
+         <tr>
+           <div class="form-group">
+             <td><label for="formGroupExampleInput">Mobile Number</label></td>
+             <td><input type="password" class="form-control" id="repas" placeholder="Mobile" onchange="NumberValidate()"></td>
+           </div>
+         </tr>
+
+
+
+</table>
+
+        <button type="" class="btn btn-primary">Submit</button>
+
+      </form>
+      <br><br>
+
+      <button  onclick="displayDetails()">Display Details</button>
+
+      <p id="details"></p>
+
+      <p id="err" style="color:red ;"></p>
+
+    </div>
+
+
+
+</body>
+</html>
