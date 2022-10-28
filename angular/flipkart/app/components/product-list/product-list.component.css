@@ -1,0 +1,149 @@
+nav{
+    background-color: #2874f0;
+    height: 75px;
+}
+.container{
+    padding-top: 0%;
+}
+.logo{
+    width: 50px;
+}
+.main{
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* flipkart clone css */
+#c_images{
+    height:300px;
+    width: 200px;
+    padding-top: 50px;
+}
+#g_images{
+    height:147px;
+    width: 250px;
+    padding-left: 30px;
+}
+#g_image_r{
+    height: 350px;
+    padding:5px;  
+} 
+.d-inline-block align-top{
+    margin-right: 5px;
+}
+#nav_i{
+    color: white;
+}
+.dropdown-item{
+    font-size: 13px;
+}
+#g2_images{
+    height: 230px;
+    margin: 10px;
+}
+#search-bar{
+    font-size: 12px;
+    width: 500px;
+    height: inherit;
+    margin-left: 10px;
+}
+footer{
+    color: black;
+}
+footer a{
+    color: #959595;
+    font-size: 12px;
+}
+footer a:hover{
+    color: blue;
+}
+.footer-middle{
+    background: white;
+    padding-top: 2em;
+    color: #565656;
+    text-align: left;
+    margin-top: 30px;
+}
+.subnavigation-container{
+    background: white;
+}
+.subnavigation .nav-link{
+    color: #565656;
+    font-weight: bold;
+}
+.subnavigation-container{
+    text-align: center;
+}
+.subnavigation-container .navbar{
+    display: inline-block;
+    margin-bottom: -6px;
+}
+.col-subnav a{
+    padding: 1rem 1rem;
+    color: #565656;
+    font-weight: bold;
+}
+.col-subnav .active{
+    border-top:5px solid orange;
+    background: white;
+    color: black;
+}
+hr{
+    margin: 0.5px;
+}
+#footer_g1{
+    border:1px groove #f4eded;
+    border-left: none;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+.fas fa-map-marker{
+    font-size: 10px;
+}
+.po{
+    border-right: 1px groove #f4eded;
+    padding: 5px;
+    color: #565656;
+}
+.policies-title{
+    font-size: 13px;
+}
+#footer-kip{
+    margin: 20px;
+}
+#contact-1{
+    font-size: 13px;
+    color: #565656;
+    
+}
+#contact-2{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #959595;
+    
+}
+#contact-div{
+    border-bottom: 1px dashed #959595;
+    border-top: 1px dashed #959595;
+    padding-top: 20px;
+}
+.contact-border{
+    border-right: 1px dashed #959595;
+}
+#footer-notes{
+    padding-top: 20px;
+}
+#footer-notes-h{
+    font-size: 13px;
+    color: #565656;
+}
+#footer-notes-c{
+    font-size: 12px;
+    color: #959595;
+}

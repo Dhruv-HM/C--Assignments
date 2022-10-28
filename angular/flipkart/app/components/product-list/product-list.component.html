@@ -1,0 +1,83 @@
+<!-- navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">Flipkart</a>
+         <img src="https://raw.githubusercontent.com/umang-jain/Flipkart-clone/master/images/flipkart-logo-C9E637A758-seeklogo.com.png" width="30" height="30" class="d-inline-block align-top" alt="">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search for Products, Brands and more" aria-label="Search" id="search-bar">
+             <i class="fas fa-search"></i>
+         </form>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+         <ul class="nav navbar-nav navbar-right">
+             <li class="nav-item" >
+                 <a class="nav-link" href="#" id="nav_i">Login & Sign-up </a>
+             </li>
+             <li class="nav-item dropdown active">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="nav_i">   More    </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#"><i class="fas fa-briefcase"></i>  Sell On Flipkart</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#"><i class="fas fa-question"></i>  24X7 Customer Care</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#"><i class="fas fa-chart-line"></i>  Advertise</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#"><i class="fas fa-download"></i>  Download App</a>
+                 </div>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#" id="nav_i"><i class="fas fa-shopping-cart"></i>Cart</a>
+             </li>
+             
+         </ul>
+     </div>
+ </nav>
+ 
+
+
+
+
+
+
+
+<!-- navbar end -->
+
+<div class="container mt-5 mb-5 main">
+    <div class="d-flex justify-content-center row" *ngFor="let p of products index as i">
+        <div class="col-md-10">
+            <div class="row p-2 bg-white border rounded">
+
+                <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                        src={{p.pic_url}}></div>
+                <div class="col-md-6 mt-1">
+                    <h5><a href={{p.link}}>{{p.name}}</a></h5>
+                   
+                    <div class="d-flex flex-row">
+                        <!-- <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span> -->
+                    </div>
+                    <div class="mt-1 mb-1 spec-1">
+                        <ul *ngFor="let d of p.desc">
+                            <li style="color:grey; font-size: 0.8rem;">{{d}}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                    <div class="d-flex flex-row align-items-center">
+                        <h4 class="mr-1">₹{{p.price}}</h4><span class="strike-text"></span>
+                    </div>
+                    <h6 class="text-success">Free shipping</h6>
+                    <h5 class="text-success">Bank Offer</h5>
+                    <img height="21"
+                        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png">
+                    <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm"
+                            type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2"
+                            type="button">Add to wishlist</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
