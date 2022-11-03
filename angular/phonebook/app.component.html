@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row alert alert-info">
+    <div class="col">
+      <h2>Phone Book Application</h2>
+      <p>Powered by Happiness&copy;</p>
+      <hr />
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm-4 alert alert-warning full-height">
+      <p><button [routerLink]="['/contact-list']" class="btn btn-secondary btn-block" style="width:100%;">Contact List</button></p>
+      <p><button [routerLink]="['/home']" class="btn btn-secondary btn-block" style="width:100%;">Home</button></p>
+      <p><button [routerLink]="['/add-contact']" class="btn btn-secondary btn-block" style="width:100%;">Add New Contact</button></p>
+    </div>
+    <div class="col-sm-8">
+      <router-outlet></router-outlet>
+      <!-- <edit-contact></edit-contact> -->
+      <!-- <add-contact></add-contact> -->
+      <!-- <contact-list></contact-list> -->
+      <!-- <app-contact-details></app-contact-details> -->
+    </div>
+  </div>
+
+
+</div>

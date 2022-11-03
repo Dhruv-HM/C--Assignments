@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.container-fluid{
+    background-color: grey;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+img{
+    width: 200px;
+}
+
+td{
+    padding-right: 30px;
+    padding-bottom: 50px;
+}

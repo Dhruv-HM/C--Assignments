@@ -1,0 +1,145 @@
+<h3>Add Contact Details</h3>
+<form #f1="ngForm" action="submit" class="form">
+    
+    <div class="row form-group">
+        <div class="col">
+            <label for="firstname">First Name</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input #firstname="ngModel" type="text" required minlength="5" maxlength="10" name="firstname"
+                class="form-control" [(ngModel)]="contact.firstName" />
+        </div>
+    </div>
+    <div  class="err">
+        <div *ngIf="firstname.errors?.['required'] && firstname.dirty">First Name is required</div>
+        <div *ngIf="firstname.errors?.['minlength']">Min length 5</div>
+        <div *ngIf="firstname.errors?.['maxlength']">Max length 10</div>
+    </div>
+
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="lasttname">Last Name</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text" #lastname="ngModel" required minlength="2" maxlength="25" name="lastname" class="form-control" [(ngModel)]="contact.lastName"/>
+        </div>
+    </div>
+    <div  class="err">
+        <div *ngIf="lastname.errors?.['required']">Last Name is required</div>
+        <div *ngIf="lastname.errors?.['minlength']">Min length 5</div>
+        <div *ngIf="lastname.errors?.['maxlength']">Max length 10</div>
+    </div>
+
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="gender">Gender</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="radio" required  id="gender" name="gender" class="" [(ngModel)]="contact.gender" value="Male"/>Male
+            <input type="radio" required  id="gender2" name="gender2" class="" [(ngModel)]="contact.gender" value="Female"/>Female
+        </div>
+    </div>
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="dob">DOB</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text" required  name="dob" class="form-control" [(ngModel)]="contact.dob"/>
+        </div>
+    </div>
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="email">Email</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text" required  name="email" class="form-control" [(ngModel)]="contact.email"/>
+        </div>
+    </div>
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="phone"> Phone</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text" required  name="phone" pattern="\d{10,10}" class="form-control" [(ngModel)]="contact.phone"/>
+        </div>
+    </div>
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="city">City</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text" required  name="city" class="form-control" [(ngModel)]="contact.city"/>
+        </div>
+    </div>
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="state">State</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text" required name="state" class="form-control" [(ngModel)]="contact.state"/>
+        </div>
+    </div>
+<br>
+    <div class="row form-group">
+        <div class="col">
+            <label for="country">country</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text" required  name="country" class="form-control" [(ngModel)]="contact.country"/>
+        </div>
+    </div>
+<br>
+    <!-- <div class="row form-group">
+        <div class="col">
+            <label for="id">ID</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text"  name="id" class="form-control" [(ngModel)]="contact.id"/>
+        </div>
+    </div> -->
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="picture">Picture URL</label>
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col">
+            <input type="text"  name="picture" class="form-control" [(ngModel)]="contact.picture"/>
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <button [disabled]="f1.invalid" class="btn btn-{{f1.invalid?'danger':'primary'}}"(click)="addContact()" >Add Contact</button>
+        </div>
+    </div>
+    
+</form>

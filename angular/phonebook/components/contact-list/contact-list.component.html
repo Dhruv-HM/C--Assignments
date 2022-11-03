@@ -1,0 +1,56 @@
+<h3>List of All Contacts-Total Contacts({{contacts.length}})</h3>
+<hr>
+
+<div class="list-group">
+    <div class="list-group-item" *ngFor="let c of contacts">
+        <img [routerLink]="['/edit-contact']" style="cursor:pointer" src="/assets/images/{{c.id}}.jpg" style="height: 150px;width: 200px;" alt="">
+        <div class="row">
+            <div class="col-sm-9"><div class="row">
+                <div class="col-sm-4">Id</div>
+                <div class="col-sm-8">{{c.id}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">First Name</div>
+                <div class="col-sm-8">{{c.firstName|genderPipe:c.gender}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Last Name</div>
+                <div class="col-sm-8">{{c.lastName}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Gender</div>
+                <div class="col-sm-8">{{c.gender}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">DOB</div>
+                <div class="col-sm-8">{{c.dob}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Email</div>
+                <div class="col-sm-8">{{c.email}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4"> Phone Number</div>
+                <div class="col-sm-8">{{c.phone}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">City</div>
+                <div class="col-sm-8">{{c.city}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">State</div>
+                <div class="col-sm-8">{{c.state}}</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Country</div>
+                <div class="col-sm-8">{{c.country}}</div>
+            </div></div>
+            <div class="col-sm-3">
+                <button [routerLink]="['/edit-contact']" class="btn btn-success" style="margin-bottom: 15px;" >Edit</button><br>
+                <button class="btn btn-danger" style="margin-bottom: 15px;" (click)="deleteContact(c.id)">Delete</button>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
