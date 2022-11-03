@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Contact} from 'src/app/models/contact'
+import { ContatcService } from 'src/app/services/contatc-service.service';
 
 @Component({
   selector: 'app-contact-details',
@@ -7,11 +8,13 @@ import {Contact} from 'src/app/models/contact'
   styleUrls: ['./contact-details.component.css']
 })
 export class ContactDetailsComponent implements OnInit {
-  contact:Contact=new Contact(1,"Chotta","Bheem","Male","09-12-'88","bheem.chotta@gmail.com","123675","Dholakpur","Bihar","India","./assets/images/1.jpg");
+  contact:Contact=new Contact(1,"","","","","","","","","","");
 
-  constructor() { }
+  constructor(private contactService:ContatcService) { }
 
   ngOnInit(): void {
+
+      this.contactService.getContactDetails(3).subscribe(data=>this.contact=data);
     // this.contact.id=1;
     // this.contact.firstName="Chotta";
     // this.contact.lastName="Bheem";

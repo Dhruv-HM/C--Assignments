@@ -9,6 +9,8 @@ import { FormsModule , ReactiveFormsModule} from '@angular/forms';
 import { EditContactComponent } from './components/edit-contact/edit-contact.component';
 import { RouterModule, Routes } from '@angular/router';
 import { GenderPipePipe } from './pipes/gender-pipe.pipe';
+import { HttpClientModule } from '@angular/common/http';
+import { ContactTemComponent } from './components/contact-tem/contact-tem.component';
 
 // add routes
 const routes:Routes=[
@@ -34,7 +36,7 @@ const routes:Routes=[
     component:AddContactComponent
   },
   {
-    path:"edit-contact",
+    path:"edit-contact/:id",
     component:EditContactComponent
   }
 ];
@@ -46,16 +48,19 @@ const routes:Routes=[
     ContactListComponent,
     AddContactComponent,
     EditContactComponent,
-    GenderPipePipe
+    GenderPipePipe,
+    ContactTemComponent
+  
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    HttpClientModule
 
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

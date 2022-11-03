@@ -12,6 +12,7 @@ export class Contact {
     state?:string;
     country?:string;
     picture?:string;
+  subscribe: any;
 
     constructor( id:number,firstName:string,lastName:string,gender:string,dob:string,email?:string,phone?:string,city?:string,state?:string,country?:string,picture?:string){
         this.id=id;

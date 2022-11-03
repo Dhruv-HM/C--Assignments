@@ -3,7 +3,8 @@
 
 <div class="list-group">
     <div class="list-group-item" *ngFor="let c of contacts">
-        <img [routerLink]="['/edit-contact']" style="cursor:pointer" src="/assets/images/{{c.id}}.jpg" style="height: 150px;width: 200px;" alt="">
+        <contact-tem (onReload)="reload()" [contact]="c"></contact-tem>
+        <!-- <img [routerLink]="['/edit-contact']" style="cursor:pointer" src="/assets/images/{{c.id}}.jpg" style="height: 150px;width: 200px;" alt="">
         <div class="row">
             <div class="col-sm-9"><div class="row">
                 <div class="col-sm-4">Id</div>
@@ -46,10 +47,10 @@
                 <div class="col-sm-8">{{c.country}}</div>
             </div></div>
             <div class="col-sm-3">
-                <button [routerLink]="['/edit-contact']" class="btn btn-success" style="margin-bottom: 15px;" >Edit</button><br>
+                <button [routerLink]="['/edit-contact',c.id]" class="btn btn-success" style="margin-bottom: 15px;" >Edit</button><br>
                 <button class="btn btn-danger" style="margin-bottom: 15px;" (click)="deleteContact(c.id)">Delete</button>
             </div>
-        </div>
+        </div> -->
         
         
     </div>
